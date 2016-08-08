@@ -22,6 +22,15 @@
       templateUrl: 'app/layout/layout.html',
       controller: 'LayoutCtrl'
     })
+    .state('app.home', {
+      url: '/home',
+      views: {
+        'menuContent': {
+          templateUrl: 'app/home/home.html',
+          controller: 'HomeCtrl'
+        }
+      }
+    })
     .state('app.twitts', {
       url: '/twitts',
       views: {

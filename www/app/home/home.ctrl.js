@@ -1,9 +1,9 @@
 (function(){
   'use strict';
   angular.module('app')
-    .controller('TwittCtrl', TwittCtrl);
+    .controller('HomeCtrl', HomeCtrl);
 
-  function TwittCtrl($scope, $stateParams, Storage){
+  function HomeCtrl($scope, $stateParams, Storage){
     var data = {}, fn = {};
     $scope.data = data;
     $scope.fn = fn;
