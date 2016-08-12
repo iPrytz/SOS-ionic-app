@@ -22,6 +22,42 @@
       templateUrl: 'app/layout/layout.html',
       controller: 'LayoutCtrl'
     })
+    .state('app.home', {
+      url: '/home',
+      views: {
+        'menuContent': {
+          templateUrl: 'app/home/home.html',
+          controller: 'HomeCtrl'
+        }
+      }
+    })
+    .state('app.media', {
+      url: '/media',
+      views: {
+        'menuContent': {
+          templateUrl: 'app/media/media-select.html',
+          controller: 'MediaSelectCtrl'
+        }
+      }
+    })
+    .state('app.media.podcast', {
+      url: '/podcast',
+      views: {
+        'menuContent@app': {
+          templateUrl: 'app/media/media-podcast.html',
+          controller: 'MediaPodcastCtrl'
+        }
+      }
+    })
+    .state('app.media.vimeo', {
+      url: '/vimeo',
+      views: {
+        'menuContent@app': {
+          templateUrl: 'app/media/media-vimeo.html',
+          controller: 'MediaVimeoCtrl'
+        }
+      }
+    })
     .state('app.twitts', {
       url: '/twitts',
       views: {

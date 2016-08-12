@@ -1,0 +1,24 @@
+// MEDIA SELECT
+@mixin media-select-links {
+  // background-size: cover;
+  text-align: center;
+  color: #FFF;
+  border: solid #FFF 1px;
+  font-size: 1.1em;
+  i {
+    font-size: 4em;
+  }
+}
+
+.media-select-link-vimeo {
+  @extend .center-flex-content;
+  @include media-select-links
+  background-color: #333;
+}
+
+.media-select-link-podcast {
+  @extend .center-flex-content;
+  @include media-select-links
+  background-color: #666;
+
+}

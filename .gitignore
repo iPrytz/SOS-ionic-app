@@ -19,3 +19,5 @@ plugins/
 /resources/ios/
 
 *~
+
+/www-local

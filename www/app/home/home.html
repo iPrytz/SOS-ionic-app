@@ -1,10 +1,30 @@
-<ion-view title="Twitt">
-  <ion-content>
-    <div class="list card">
-      <div class="item item-avatar">
-        <img ng-src="{{data.twitt.avatar}}">
-        <h2>{{data.twitt.user}}</h2>
-        <p>{{data.twitt.content}}</p>
+<ion-view >
+  <ion-nav-title>
+      <img alt="Company Logo" height="40" src="../img/sos-white.png">
+  </ion-nav-title>
+  <ion-content class="fill-height-flex">
+    <div class="container-flex-height">
+
+      <div class="row" style="flex:1.8">
+        <div class="col home-going-on-link" ui-sref="app.twitts">
+          <strong>GOING ON</strong>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-50 home-media-link" ui-sref="app.media">
+          <strong>MEDIA</strong>
+        </div>
+        <div class="col col-50 home-connect-link" ui-sref="app.media">
+          <strong>CONNECT</strong>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-50 home-find-us-link" ui-sref="app.media">
+          <strong>FIND US</strong>
+        </div>
+        <div class="col col-50 home-about-link" ui-sref="app.media">
+          <strong>ABOUT US</strong>
+        </div>
       </div>
     </div>
   </ion-content>
