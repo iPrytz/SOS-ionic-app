@@ -8,8 +8,6 @@
     $scope.data = data;
     $scope.fn = fn;
 
-    Storage.getTwitt($stateParams.id).then(function(twitt){
-      data.twitt = twitt;
-    });
+
   }
 })();

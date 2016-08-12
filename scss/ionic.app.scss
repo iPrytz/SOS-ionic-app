@@ -20,5 +20,10 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+
+// Include own styles
+@import "home/home";
+@import "media/media";
+
+@import "misc-styles";
 @import '_overrides';
-@import "_styles";

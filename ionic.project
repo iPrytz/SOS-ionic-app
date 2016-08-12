@@ -1,5 +1,5 @@
 {
-  "name": "ionic-starter",
+  "name": "sos-church-app",
   "app_id": "",
   "gulpStartupTasks": [
     "sass",

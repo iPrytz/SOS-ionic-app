@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="fr.loicknuchel.starter.ionic" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>ionic-starter</name>
-  <description>Start a new ionic project in seconds !</description>
-  <author email="you@example.com" href="http://example.com.com/">Your Name Here</author>
+  <name>SOS Church</name>
+  <description>Ioic hybrid app for SOS Church</description>
+  <author email="isak.prytz@gmail.com" href="http://missionsos.com/">Isak Prytz</author>
   <content src="index.html"/>
   <access origin="*"/>
   <access origin="tel:*" launch-external="yes"/>

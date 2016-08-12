@@ -1,7 +1,7 @@
 {
-  "name": "ionic-starter",
+  "name": "sos-church-app",
   "version": "0.0.1",
-  "description": "Start a new ionic project in seconds !",
+  "description": "Hybrid app for SOS Church",
   "dependencies": {
     "gulp": "^3.9.0",
     "gulp-sass": "^2.0.4",
@@ -25,5 +25,8 @@
     "cordova-sqlite-storage",
     "cordova-plugin-inappbrowser"
   ],
-  "cordovaPlatforms": []
+  "cordovaPlatforms": [
+    "ios",
+    "android"
+  ]
 }

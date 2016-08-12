@@ -1,0 +1,41 @@
+@mixin home-links {
+  background-size: cover;
+  text-align: center;
+  color: #FFF;
+  border: solid #FFF 1px;
+  font-size: 1.1em;
+
+}
+
+.home-going-on-link {
+  @extend .center-flex-content;
+  background-image:url('../img/going-on.jpg');
+  @include home-links;
+  border: none;
+}
+
+.home-media-link {
+  @extend .center-flex-content;
+  background-image:url('../img/headphones.jpg');
+  @include home-links;
+}
+
+.home-connect-link {
+  @extend .center-flex-content;
+  background-image:url('../img/connect.jpg');
+  @include home-links;
+
+}
+
+.home-find-us-link {
+  @extend .center-flex-content;
+  background-image:url('../img/find-us.jpg');
+  @include home-links;
+}
+
+.home-about-link {
+  @extend .center-flex-content;
+  background-image:url('../img/about-us.jpg');
+  @include home-links;
+
+}
