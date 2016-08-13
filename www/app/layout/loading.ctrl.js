@@ -9,11 +9,11 @@
       disableBack: true
     });
     Storage.getUser().then(function(user){
-      if(user){
-        $state.go('app.twitts');
-      } else {
-        $state.go('login');
-      }
+      // if(user){
+        $state.go('app.home');
+      // } else {
+      //   $state.go('app.home');
+      // }
     });
   }
 })();
